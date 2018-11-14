@@ -51,7 +51,11 @@ $view = $input->get('view');
 
     <?php if($appSettings->enable_socials) { ?>
     <!-- Button trigger modal -->
-    <a href="<?php echo $url?>#" class="btn btn-primary btn-xs" id="open_socials">
+<!--edited-ori-->
+    <!--a href="<?php echo $url?>#" class="btn btn-primary btn-xs" id="open_socials"-->
+<!--ivanx-->
+    <a href="<?php echo $url?>#" class="btn btn-xs" id="open_socials">
+
         <i class="dir-icon-share-square-o"></i> <?php echo JText::_('LNG_SHARE') ?>
     </a>
     <?php }?>
