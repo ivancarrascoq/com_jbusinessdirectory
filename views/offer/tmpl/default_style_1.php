@@ -43,7 +43,7 @@ require_once 'header.php';
                     <?php if($this->appSettings->enable_offer_coupons) { ?>
                         <?php if($this->offer->checkOffer) { ?>
                             <?php if($user->id !=0) { ?>
-                                <a class="btn btn-primary btn-xs" href="<?php echo JRoute::_('index.php?option=com_jbusinessdirectory&task=offer.generateCoupon&id='.$this->offer->id) ?>" target="_blank">
+                                <a class="btn btn-xs" href="<?php echo JRoute::_('index.php?option=com_jbusinessdirectory&task=offer.generateCoupon&id='.$this->offer->id) ?>" target="_blank">
                                     <?php echo JText::_("LNG_GENERATE_COUPON")?>
                                 </a>
                             <?php } else { ?>
