@@ -47,7 +47,7 @@ require_once 'header.php';
                                     <?php echo JText::_("LNG_GENERATE_COUPON")?>
                                 </a>
                             <?php } else { ?>
-                                <a class="btn btn-primary btn-xs" href="javascript:showLoginNotice()">
+                                <a class="btn btn-xs" href="javascript:showLoginNotice()">
                                     <?php echo JText::_('LNG_GENERATE_COUPON')?>
                                 </a>
                             <?php } ?>
